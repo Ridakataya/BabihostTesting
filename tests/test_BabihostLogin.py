@@ -13,7 +13,7 @@ from Utilities.utils import AutomationLogger
 @pytest.mark.usefixtures("launchDriver")
 class TestBabihostLogin:
     log = AutomationLogger.automation()
-    test_data=AutomationLogger.get_newest_excel_file("C:\\Users\\User\\Babihost\\testData","Sheet1")
+    test_data=AutomationLogger.get_newest_excel_file("testData","Sheet1")
     @pytest.mark.parametrize("test_data",test_data)
 
     def test_login(self,test_data):

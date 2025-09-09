@@ -41,11 +41,10 @@ jobs:
         run: |
           source venv/bin/activate
           pytest --html=reports/BabihostLogin \
-            -k "babihostlogin" \
-            -n 4 \
+            -k "TestBabihostLogin" \
             --css=reports/assets/style.css
         env:
-          Display: :99.0
+          DISPLAY: :99.0
 
       - name: Upload Report
         if: always()
