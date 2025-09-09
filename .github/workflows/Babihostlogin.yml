@@ -1,0 +1,55 @@
+name: Babihost Login Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  babihostlogin:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create Report Directory
+        run: mkdir -p reports/assets
+
+      - name: Run Babihost Login
+        run: |
+          source venv/bin/activate
+          pytest --html=reports/BabihostLogin \
+            -k "babihostlogin" \
+            -n 4 \
+            --css=reports/assets/style.css
+        env:
+          Display: :99.0
+
+      - name: Upload Report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: BabihostLogin-Report
+          path: reports

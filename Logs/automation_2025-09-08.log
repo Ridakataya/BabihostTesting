@@ -1,0 +1,254 @@
+2025-09-08 00:43:47,318 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:43:47,319 - TestBabihostLogin - ERROR - An error occurred during login: Babihost.BabihostLogin() got an unexpected keyword argument 'usename'. Did you mean 'username'?
+2025-09-08 00:43:47,377 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:43:47,377 - TestBabihostLogin - ERROR - An error occurred during login: Babihost.BabihostLogin() got an unexpected keyword argument 'usename'. Did you mean 'username'?
+2025-09-08 00:43:47,394 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:43:47,395 - TestBabihostLogin - ERROR - An error occurred during login: Babihost.BabihostLogin() got an unexpected keyword argument 'usename'. Did you mean 'username'?
+2025-09-08 00:43:47,413 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:43:47,413 - TestBabihostLogin - ERROR - An error occurred during login: Babihost.BabihostLogin() got an unexpected keyword argument 'usename'. Did you mean 'username'?
+2025-09-08 00:46:52,753 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:46:52,754 - TestBabihostLogin - ERROR - An error occurred during login: Babihost.BabihostLogin() got an unexpected keyword argument 'usename'. Did you mean 'username'?
+2025-09-08 00:50:15,764 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:50:15,765 - TestBabihostLogin - ERROR - An error occurred during login: BabihostLogin() missing 1 required positional argument: 'password'
+2025-09-08 00:52:18,188 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-08 00:52:18,189 - TestBabihostLogin - ERROR - An error occurred during login: BabihostLogin() missing 1 required positional argument: 'password'
+2025-09-08 00:58:46,976 - TestBabihostLogin - INFO - Test started
+2025-09-08 00:58:46,977 - TestBabihostLogin - ERROR - An error occurred during login: BabihostLogin() missing 1 required positional argument: 'password'
+2025-09-08 01:53:13,730 - TestBabihostLogin - INFO - Test started
+2025-09-08 01:53:13,731 - TestBabihostLogin - ERROR - An error occurred during login: maximum recursion depth exceeded
+2025-09-08 01:55:14,424 - TestBabihostLogin - INFO - Test started
+2025-09-08 01:55:14,426 - TestBabihostLogin - ERROR - An error occurred during login: maximum recursion depth exceeded
+2025-09-08 01:57:05,937 - TestBabihostLogin - INFO - Test started
+2025-09-08 01:57:05,954 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 02:02:16,782 - TestBabihostLogin - INFO - Test started
+2025-09-08 02:02:16,798 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 02:02:51,328 - TestBabihostLogin - INFO - Test started
+2025-09-08 02:02:51,346 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 02:09:07,723 - TestBabihostLogin - INFO - Test started
+2025-09-08 02:09:07,738 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 02:09:16,274 - TestBabihostLogin - INFO - Test started
+2025-09-08 02:09:16,289 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 02:10:20,985 - TestBabihostLogin - INFO - Test started
+2025-09-08 02:10:21,001 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 02:16:51,232 - TestBabihostLogin - INFO - Test started
+2025-09-08 02:16:51,243 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ca90fca5+79861]
+	GetHandleVerifier [0x0x7ff6ca90fd00+79952]
+	(No symbol) [0x0x7ff6ca68cada]
+	(No symbol) [0x0x7ff6ca6e4457]
+	(No symbol) [0x0x7ff6ca6e471c]
+	(No symbol) [0x0x7ff6ca738217]
+	(No symbol) [0x0x7ff6ca70cb1f]
+	(No symbol) [0x0x7ff6ca734f8b]
+	(No symbol) [0x0x7ff6ca70c8b3]
+	(No symbol) [0x0x7ff6ca6d5272]
+	(No symbol) [0x0x7ff6ca6d6043]
+	GetHandleVerifier [0x0x7ff6cabcb9dd+2946349]
+	GetHandleVerifier [0x0x7ff6cabc5c5a+2922410]
+	GetHandleVerifier [0x0x7ff6cabe59e7+3052855]
+	GetHandleVerifier [0x0x7ff6ca92aa8e+189918]
+	GetHandleVerifier [0x0x7ff6ca932a2f+222591]
+	GetHandleVerifier [0x0x7ff6ca918ac4+116244]
+	GetHandleVerifier [0x0x7ff6ca918c79+116681]
+	GetHandleVerifier [0x0x7ff6ca8ff058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 20:11:07,206 - TestBabihostLogin - INFO - Test started
+2025-09-08 20:11:07,229 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66558fca5+79861]
+	GetHandleVerifier [0x0x7ff66558fd00+79952]
+	(No symbol) [0x0x7ff66530cada]
+	(No symbol) [0x0x7ff665364457]
+	(No symbol) [0x0x7ff66536471c]
+	(No symbol) [0x0x7ff6653b8217]
+	(No symbol) [0x0x7ff66538cb1f]
+	(No symbol) [0x0x7ff6653b4f8b]
+	(No symbol) [0x0x7ff66538c8b3]
+	(No symbol) [0x0x7ff665355272]
+	(No symbol) [0x0x7ff665356043]
+	GetHandleVerifier [0x0x7ff66584b9dd+2946349]
+	GetHandleVerifier [0x0x7ff665845c5a+2922410]
+	GetHandleVerifier [0x0x7ff6658659e7+3052855]
+	GetHandleVerifier [0x0x7ff6655aaa8e+189918]
+	GetHandleVerifier [0x0x7ff6655b2a2f+222591]
+	GetHandleVerifier [0x0x7ff665598ac4+116244]
+	GetHandleVerifier [0x0x7ff665598c79+116681]
+	GetHandleVerifier [0x0x7ff66557f058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-08 20:11:32,737 - TestBabihostLogin - INFO - Test started
+2025-09-08 20:11:32,756 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="username"]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66558fca5+79861]
+	GetHandleVerifier [0x0x7ff66558fd00+79952]
+	(No symbol) [0x0x7ff66530cada]
+	(No symbol) [0x0x7ff665364457]
+	(No symbol) [0x0x7ff66536471c]
+	(No symbol) [0x0x7ff6653b8217]
+	(No symbol) [0x0x7ff66538cb1f]
+	(No symbol) [0x0x7ff6653b4f8b]
+	(No symbol) [0x0x7ff66538c8b3]
+	(No symbol) [0x0x7ff665355272]
+	(No symbol) [0x0x7ff665356043]
+	GetHandleVerifier [0x0x7ff66584b9dd+2946349]
+	GetHandleVerifier [0x0x7ff665845c5a+2922410]
+	GetHandleVerifier [0x0x7ff6658659e7+3052855]
+	GetHandleVerifier [0x0x7ff6655aaa8e+189918]
+	GetHandleVerifier [0x0x7ff6655b2a2f+222591]
+	GetHandleVerifier [0x0x7ff665598ac4+116244]
+	GetHandleVerifier [0x0x7ff665598c79+116681]
+	GetHandleVerifier [0x0x7ff66557f058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+

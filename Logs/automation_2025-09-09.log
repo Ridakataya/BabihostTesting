@@ -1,0 +1,372 @@
+2025-09-09 23:31:14,703 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:31:14,704 - TestBabihostLogin - ERROR - An error occurred during login: cannot access local variable 'Babihost' where it is not associated with a value
+2025-09-09 23:31:14,924 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:31:14,924 - TestBabihostLogin - ERROR - An error occurred during login: cannot access local variable 'Babihost' where it is not associated with a value
+2025-09-09 23:31:15,115 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:31:15,115 - TestBabihostLogin - ERROR - An error occurred during login: cannot access local variable 'Babihost' where it is not associated with a value
+2025-09-09 23:31:15,257 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:31:15,258 - TestBabihostLogin - ERROR - An error occurred during login: cannot access local variable 'Babihost' where it is not associated with a value
+2025-09-09 23:32:00,119 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:32:00,119 - TestBabihostLogin - ERROR - An error occurred during login: cannot access local variable 'Babihost' where it is not associated with a value
+2025-09-09 23:34:11,354 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:34:11,362 - BabihostLogin - INFO - Location email
+2025-09-09 23:34:11,560 - BabihostLogin - INFO - Sent username
+2025-09-09 23:34:15,179 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-menu-4"]/div/nav/button"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba9d4457]
+	(No symbol) [0x0x7ff7ba9d471c]
+	(No symbol) [0x0x7ff7baa28217]
+	(No symbol) [0x0x7ff7ba9fcb1f]
+	(No symbol) [0x0x7ff7baa24f8b]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:34:15,594 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:34:15,616 - BabihostLogin - INFO - Location email
+2025-09-09 23:34:15,616 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:15,733 - TestBabihostLogin - ERROR - An error occurred during login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba9d4457]
+	(No symbol) [0x0x7ff7ba9d471c]
+	(No symbol) [0x0x7ff7baa28217]
+	(No symbol) [0x0x7ff7ba9fcb1f]
+	(No symbol) [0x0x7ff7baa24f8b]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:35:15,991 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:35:16,000 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:16,000 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:16,000 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:16,526 - TestBabihostLogin - ERROR - An error occurred during login: Alert Text: Are you sure you want to log out?
+Message: unexpected alert open: {Alert text : Are you sure you want to log out?}
+  (Session info: chrome=140.0.7339.81)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7baa259fd]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:35:16,940 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:35:16,951 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:16,951 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:16,951 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:16,951 - BabihostLogin - INFO - Location email
+2025-09-09 23:35:20,689 - TestBabihostLogin - ERROR - An error occurred during login: Alert Text: Are you sure you want to log out?
+Message: unexpected alert open: {Alert text : Are you sure you want to log out?}
+  (Session info: chrome=140.0.7339.81)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7baa259fd]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:39:38,968 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:39:38,975 - BabihostLogin - INFO - Location email
+2025-09-09 23:39:39,082 - BabihostLogin - INFO - Sent username
+2025-09-09 23:39:42,483 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//nav/button[contains(., "Logout")]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba9d4457]
+	(No symbol) [0x0x7ff7ba9d471c]
+	(No symbol) [0x0x7ff7baa28217]
+	(No symbol) [0x0x7ff7ba9fcb1f]
+	(No symbol) [0x0x7ff7baa24f8b]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:39:57,901 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:39:57,912 - BabihostLogin - INFO - Location email
+2025-09-09 23:39:58,105 - BabihostLogin - INFO - Sent username
+2025-09-09 23:40:01,780 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//nav/button[contains(., "Logout")]"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba9d4457]
+	(No symbol) [0x0x7ff7ba9d471c]
+	(No symbol) [0x0x7ff7baa28217]
+	(No symbol) [0x0x7ff7ba9fcb1f]
+	(No symbol) [0x0x7ff7baa24f8b]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:40:02,568 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:40:02,601 - BabihostLogin - INFO - Location email
+2025-09-09 23:40:02,601 - BabihostLogin - INFO - Location email
+2025-09-09 23:40:25,303 - TestBabihostLogin - ERROR - An error occurred during login: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba968995]
+	(No symbol) [0x0x7ff7ba98dbda]
+	(No symbol) [0x0x7ff7baa04346]
+	(No symbol) [0x0x7ff7baa248c2]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:43:31,435 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:43:31,450 - BabihostLogin - INFO - Location email
+2025-09-09 23:43:31,608 - BabihostLogin - INFO - Sent username
+2025-09-09 23:43:37,316 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba9d4457]
+	(No symbol) [0x0x7ff7ba9d471c]
+	(No symbol) [0x0x7ff7baa28217]
+	(No symbol) [0x0x7ff7ba9fcb1f]
+	(No symbol) [0x0x7ff7baa24f8b]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:43:37,561 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:43:37,568 - BabihostLogin - INFO - Location email
+2025-09-09 23:43:37,568 - BabihostLogin - INFO - Location email
+2025-09-09 23:43:55,519 - TestBabihostLogin - ERROR - An error occurred during login: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=140.0.7339.81)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97c8fc]
+	(No symbol) [0x0x7ff7ba969d0c]
+	(No symbol) [0x0x7ff7ba968b9f]
+	(No symbol) [0x0x7ff7ba98dbda]
+	(No symbol) [0x0x7ff7baa04346]
+	(No symbol) [0x0x7ff7baa248c2]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:47:22,068 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:47:22,075 - BabihostLogin - INFO - Location email
+2025-09-09 23:47:22,252 - BabihostLogin - INFO - Sent username
+2025-09-09 23:47:26,004 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-menu-4"]/div/nav/button"}
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba9d4457]
+	(No symbol) [0x0x7ff7ba9d471c]
+	(No symbol) [0x0x7ff7baa28217]
+	(No symbol) [0x0x7ff7ba9fcb1f]
+	(No symbol) [0x0x7ff7baa24f8b]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:47:26,391 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:47:26,403 - BabihostLogin - INFO - Location email
+2025-09-09 23:47:26,403 - BabihostLogin - INFO - Location email
+2025-09-09 23:48:00,214 - TestBabihostLogin - ERROR - An error occurred during login: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba968995]
+	(No symbol) [0x0x7ff7ba98dbda]
+	(No symbol) [0x0x7ff7baa04346]
+	(No symbol) [0x0x7ff7baa248c2]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:49:11,106 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:49:11,116 - BabihostLogin - INFO - Location email
+2025-09-09 23:49:11,238 - BabihostLogin - INFO - Sent username
+2025-09-09 23:49:19,415 - TestBabihostLogin - INFO - Login test completed successfully
+2025-09-09 23:49:19,428 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:49:19,440 - BabihostLogin - INFO - Location email
+2025-09-09 23:49:19,440 - BabihostLogin - INFO - Location email
+2025-09-09 23:49:19,445 - TestBabihostLogin - ERROR - An error occurred during login: Alert Text: Are you sure you want to log out?
+Message: unexpected alert open: {Alert text : Are you sure you want to log out?}
+  (Session info: chrome=140.0.7339.81)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7baa259fd]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
+2025-09-09 23:49:19,725 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-09 23:49:19,736 - BabihostLogin - INFO - Location email
+2025-09-09 23:49:19,736 - BabihostLogin - INFO - Location email
+2025-09-09 23:49:19,736 - BabihostLogin - INFO - Location email
+2025-09-09 23:49:44,639 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.81)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7babffca5+79861]
+	GetHandleVerifier [0x0x7ff7babffd00+79952]
+	(No symbol) [0x0x7ff7ba97cada]
+	(No symbol) [0x0x7ff7ba954b91]
+	(No symbol) [0x0x7ff7baa040fe]
+	(No symbol) [0x0x7ff7baa248c2]
+	(No symbol) [0x0x7ff7ba9fc8b3]
+	(No symbol) [0x0x7ff7ba9c5272]
+	(No symbol) [0x0x7ff7ba9c6043]
+	GetHandleVerifier [0x0x7ff7baebb9dd+2946349]
+	GetHandleVerifier [0x0x7ff7baeb5c5a+2922410]
+	GetHandleVerifier [0x0x7ff7baed59e7+3052855]
+	GetHandleVerifier [0x0x7ff7bac1aa8e+189918]
+	GetHandleVerifier [0x0x7ff7bac22a2f+222591]
+	GetHandleVerifier [0x0x7ff7bac08ac4+116244]
+	GetHandleVerifier [0x0x7ff7bac08c79+116681]
+	GetHandleVerifier [0x0x7ff7babef058+11176]
+	BaseThreadInitThunk [0x0x7ff9de657374+20]
+	RtlUserThreadStart [0x0x7ff9dffdcc91+33]
+
