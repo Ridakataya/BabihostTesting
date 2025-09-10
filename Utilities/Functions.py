@@ -27,11 +27,8 @@ def BabihostLogin(self, username, password):
     time.sleep(1)
     self.driver.find_element(By.XPATH,'//*[@id="app"]/div/div[2]/form/button').click()
     time.sleep(1)
-    WebDriverWait(self.driver, 10).until(
-      EC.presence_of_element_located((By.XPATH, '//*[@id="nova-ui-dropdown-button-3"]'))
-    )
-    dropdown_button = self.driver.find_element(By.XPATH, '//*[@id="nova-ui-dropdown-button-3"]')
-
+    self.driver.find_element(By.XPATH,'//*[@id="nova-ui-dropdown-button-3"]').click()
+    time.sleep(1)
     self.driver.find_element(By.XPATH,'//*[@id="nova-ui-dropdown-menu-4"]/div/nav/button').click()
     time.sleep(3)
 
