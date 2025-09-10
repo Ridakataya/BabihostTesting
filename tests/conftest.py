@@ -7,22 +7,7 @@
 import pytest
 from selenium import webdriver
 import os
-from selenium.webdriver.chrome.options import Options
 
-
-
-@pytest.fixture(scope="class")
-def launchDriver(request):
-    options = Options()
-    options.add_argument("--headless")          # headless mode for CI
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Chrome(options=options)
-
-    driver.maximize_window()
-    request.cls.driver = driver
-    yield
-    driver.quit()
 
 @pytest.fixture(scope="class") #scope class, runs before any class test
 def launchDriver(request):

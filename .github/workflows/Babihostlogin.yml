@@ -12,12 +12,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'   
+          python-version: '3.13'
 
       - name: Cache pip dependencies
         uses: actions/cache@v3
@@ -30,29 +30,21 @@ jobs:
       - name: Install dependencies
         run: |
           python -m venv venv
-          venv/bin/pip install --upgrade pip
-          venv/bin/pip install -r requirements.txt
-
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: stable
+          source venv/bin/activate
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Create Report Directory
         run: mkdir -p reports/assets
 
-
       - name: Run Babihost Login
         run: |
           source venv/bin/activate
-          pytest -v --maxfail=1 \
-          --html=reports/BabihostLogin.html \
-          --css=reports/assets/style.css \
-          -k "TestBabihostLogin"
+          pytest --html=reports/BabihostLogin \
+            -k "TestBabihostLogin" \
+            --css=reports/assets/style.css
         env:
-         DISPLAY: :99.0
-
-        
+          DISPLAY: :99.0
 
       - name: Upload Report
         if: always()
@@ -61,12 +53,4 @@ jobs:
           name: BabihostLogin-Report
           path: reports
 
-      - name: Install Chrome and ChromeDriver
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget unzip xvfb libxi6 libgconf-2-4
-          sudo apt-get install -y google-chrome-stable || true
-          wget -N https://chromedriver.storage.googleapis.com/$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
-          unzip chromedriver_linux64.zip -d /usr/local/bin/
-          rm chromedriver_linux64.zip
 
