@@ -41,14 +41,18 @@ jobs:
       - name: Create Report Directory
         run: mkdir -p reports/assets
 
+
       - name: Run Babihost Login
         run: |
-          venv/bin/python -m pytest \
-            --html=reports/BabihostLogin.html \
-            -k "TestBabihostLogin" \
-            --css=reports/assets/style.css
+          source venv/bin/activate
+          pytest -v --maxfail=1 \
+          --html=reports/BabihostLogin.html \
+          --css=reports/assets/style.css \
+          -k "TestBabihostLogin"
         env:
-          DISPLAY: :99
+         DISPLAY: :99.0
+
+        
 
       - name: Upload Report
         if: always()
