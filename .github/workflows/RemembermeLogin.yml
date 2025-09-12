@@ -1,4 +1,4 @@
-name: Babihost Login Workflow
+name: Remember Me Login Workflow
 
 on:
   push:
@@ -43,14 +43,14 @@ jobs:
         run: mkdir -p reports/assets
 
       # Step 6: Run Tests
-      - name: Run Babihost Login 
+      - name: Run Remember Me Test
         run: |
           source venv/bin/activate
-          pytest --html=reports/BabihostLogin \
-            -k "TestBabihostLogin" \
+          pytest --html=reports/RememberMeLogin \
+            -k "TestRememberMeLogin" \
             --css=reports/assets/style.css
         env:
-          DISPLAY: :99.0    # Required for headless browser testing
+         DISPLAY: :99.0    # Required for headless browser testing
 
       # Step 7: Upload Test Reports as Artifacts
       - name: Upload Report
@@ -59,5 +59,3 @@ jobs:
         with:
           name: BabihostLogin-Report
           path: reports
-
-
