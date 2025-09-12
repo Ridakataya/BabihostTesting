@@ -52,6 +52,16 @@ jobs:
         env:
           DISPLAY: :99.0    # Required for headless browser testing
 
+      - name: Run Remember Me Test
+        run: |
+          source venv/bin/activate
+          pytest --html=reports/RememberMeLogin \
+            -k "TestRememberMeLogin" \
+            --css=reports/assets/style.css
+        env:
+         DISPLAY: :99.0    # Required for headless browser testing
+
+
       # Step 7: Upload Test Reports as Artifacts    
       - name: Upload Report
         if: always()
