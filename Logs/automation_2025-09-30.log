@@ -247,3 +247,9 @@ Stacktrace:
 2025-09-30 02:01:49,391 - BabihostLoginRememberMe - INFO - Login successful - dashboard loaded
 2025-09-30 02:02:05,095 - BabihostLoginRememberMe - INFO - Remember Me functionality working - user automatically logged in
 2025-09-30 02:02:05,095 - TestRemembermeLogin - INFO - Remember Me login test completed successfully
+2025-09-30 02:33:48,937 - TestBabihostForgotpassword - INFO - Test started: test_forgot_password_link
+2025-09-30 02:33:48,949 - BabihostForgotPassword - INFO - Starting 'Forgot Password' link test
+2025-09-30 02:33:49,085 - BabihostForgotPassword - INFO - Clicked on 'Forgot Password' link
+2025-09-30 02:33:49,607 - BabihostForgotPassword - INFO - Redirected to: https://babihost.online/admin/password/reset
+2025-09-30 02:33:49,607 - BabihostForgotPassword - INFO - Forgot Password redirection test passed
+2025-09-30 02:33:49,611 - TestBabihostForgotpassword - INFO - Forgot Password test completed successfully
