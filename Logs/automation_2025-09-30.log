@@ -1,0 +1,249 @@
+2025-09-30 01:03:04,411 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 01:03:04,423 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:04,573 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:12,356 - BabihostLogin - INFO - Confirmed logout via site popup
+2025-09-30 01:03:15,357 - TestBabihostLogin - INFO - Login test completed successfully
+2025-09-30 01:03:15,371 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 01:03:15,388 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:15,388 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:18,894 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:18,894 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:22,184 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-button-3"]"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f855fca5+79861]
+	GetHandleVerifier [0x0x7ff7f855fd00+79952]
+	(No symbol) [0x0x7ff7f82dcada]
+	(No symbol) [0x0x7ff7f8334457]
+	(No symbol) [0x0x7ff7f833471c]
+	(No symbol) [0x0x7ff7f8388217]
+	(No symbol) [0x0x7ff7f835cb1f]
+	(No symbol) [0x0x7ff7f8384f8b]
+	(No symbol) [0x0x7ff7f835c8b3]
+	(No symbol) [0x0x7ff7f8325272]
+	(No symbol) [0x0x7ff7f8326043]
+	GetHandleVerifier [0x0x7ff7f881b9dd+2946349]
+	GetHandleVerifier [0x0x7ff7f8815c5a+2922410]
+	GetHandleVerifier [0x0x7ff7f88359e7+3052855]
+	GetHandleVerifier [0x0x7ff7f857aa8e+189918]
+	GetHandleVerifier [0x0x7ff7f8582a2f+222591]
+	GetHandleVerifier [0x0x7ff7f8568ac4+116244]
+	GetHandleVerifier [0x0x7ff7f8568c79+116681]
+	GetHandleVerifier [0x0x7ff7f854f058+11176]
+	BaseThreadInitThunk [0x0x7ffa86e57374+20]
+	RtlUserThreadStart [0x0x7ffa87dfcc91+33]
+
+2025-09-30 01:03:22,619 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 01:03:22,640 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:22,640 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:22,640 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:22,801 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:22,801 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:22,801 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:25,993 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-button-3"]"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f855fca5+79861]
+	GetHandleVerifier [0x0x7ff7f855fd00+79952]
+	(No symbol) [0x0x7ff7f82dcada]
+	(No symbol) [0x0x7ff7f8334457]
+	(No symbol) [0x0x7ff7f833471c]
+	(No symbol) [0x0x7ff7f8388217]
+	(No symbol) [0x0x7ff7f835cb1f]
+	(No symbol) [0x0x7ff7f8384f8b]
+	(No symbol) [0x0x7ff7f835c8b3]
+	(No symbol) [0x0x7ff7f8325272]
+	(No symbol) [0x0x7ff7f8326043]
+	GetHandleVerifier [0x0x7ff7f881b9dd+2946349]
+	GetHandleVerifier [0x0x7ff7f8815c5a+2922410]
+	GetHandleVerifier [0x0x7ff7f88359e7+3052855]
+	GetHandleVerifier [0x0x7ff7f857aa8e+189918]
+	GetHandleVerifier [0x0x7ff7f8582a2f+222591]
+	GetHandleVerifier [0x0x7ff7f8568ac4+116244]
+	GetHandleVerifier [0x0x7ff7f8568c79+116681]
+	GetHandleVerifier [0x0x7ff7f854f058+11176]
+	BaseThreadInitThunk [0x0x7ffa86e57374+20]
+	RtlUserThreadStart [0x0x7ffa87dfcc91+33]
+
+2025-09-30 01:03:26,259 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 01:03:26,267 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:26,267 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:26,267 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:26,267 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:26,400 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:26,400 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:26,400 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:26,400 - BabihostLogin - INFO - Sent username
+2025-09-30 01:03:29,647 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-button-3"]"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f855fca5+79861]
+	GetHandleVerifier [0x0x7ff7f855fd00+79952]
+	(No symbol) [0x0x7ff7f82dcada]
+	(No symbol) [0x0x7ff7f8334457]
+	(No symbol) [0x0x7ff7f833471c]
+	(No symbol) [0x0x7ff7f8388217]
+	(No symbol) [0x0x7ff7f835cb1f]
+	(No symbol) [0x0x7ff7f8384f8b]
+	(No symbol) [0x0x7ff7f835c8b3]
+	(No symbol) [0x0x7ff7f8325272]
+	(No symbol) [0x0x7ff7f8326043]
+	GetHandleVerifier [0x0x7ff7f881b9dd+2946349]
+	GetHandleVerifier [0x0x7ff7f8815c5a+2922410]
+	GetHandleVerifier [0x0x7ff7f88359e7+3052855]
+	GetHandleVerifier [0x0x7ff7f857aa8e+189918]
+	GetHandleVerifier [0x0x7ff7f8582a2f+222591]
+	GetHandleVerifier [0x0x7ff7f8568ac4+116244]
+	GetHandleVerifier [0x0x7ff7f8568c79+116681]
+	GetHandleVerifier [0x0x7ff7f854f058+11176]
+	BaseThreadInitThunk [0x0x7ffa86e57374+20]
+	RtlUserThreadStart [0x0x7ffa87dfcc91+33]
+
+2025-09-30 01:03:29,882 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 01:03:29,890 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:29,890 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:29,890 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:29,890 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:29,890 - BabihostLogin - INFO - Location email
+2025-09-30 01:03:29,915 - TestBabihostLogin - ERROR - An error occurred during login: 'NoneType' object is not iterable
+2025-09-30 01:04:15,572 - TestRemembermeLogin - INFO - Test started: test_login_rememberme
+2025-09-30 01:04:15,595 - BabihostLoginRememberMe - INFO - Locating email input
+2025-09-30 01:04:15,829 - BabihostLoginRememberMe - INFO - Entered username
+2025-09-30 01:04:16,925 - BabihostLoginRememberMe - INFO - Entered password
+2025-09-30 01:04:17,001 - BabihostLoginRememberMe - INFO - Clicked 'Remember Me' checkbox
+2025-09-30 01:04:17,081 - BabihostLoginRememberMe - INFO - Clicked login button
+2025-09-30 01:04:18,131 - BabihostLoginRememberMe - INFO - Login successful - dashboard loaded
+2025-09-30 01:04:31,974 - BabihostLoginRememberMe - INFO - Remember Me functionality working - user automatically logged in
+2025-09-30 01:04:31,975 - TestRemembermeLogin - INFO - Remember Me login test completed successfully
+2025-09-30 01:05:33,998 - TestBabihostRegistration - INFO - Test started: test_registration
+2025-09-30 01:05:34,014 - BabihostRegistration - INFO - Starting registration test with valid details
+2025-09-30 01:05:34,433 - BabihostRegistration - INFO - Opened registration page
+2025-09-30 01:05:34,524 - BabihostRegistration - INFO - Entered name: rida
+2025-09-30 01:05:34,657 - BabihostRegistration - INFO - Entered email: rkataya35@gmail.com
+2025-09-30 01:05:34,885 - BabihostRegistration - INFO - Entered password and confirmed password
+2025-09-30 01:05:35,723 - BabihostRegistration - INFO - Clicked Register button
+2025-09-30 01:05:56,094 - BabihostRegistration - ERROR - Registration test failed: Message: 
+
+2025-09-30 02:00:38,614 - TestBabihostForgotpassword - INFO - Test started: test_forgot_password_link
+2025-09-30 02:00:38,631 - BabihostForgotPassword - INFO - Starting 'Forgot Password' link test
+2025-09-30 02:00:38,796 - BabihostForgotPassword - INFO - Clicked on 'Forgot Password' link
+2025-09-30 02:00:39,314 - BabihostForgotPassword - INFO - Redirected to: https://babihost.online/admin/password/reset
+2025-09-30 02:00:39,314 - BabihostForgotPassword - INFO - Forgot Password redirection test passed
+2025-09-30 02:00:39,317 - TestBabihostForgotpassword - INFO - Forgot Password test completed successfully
+2025-09-30 02:01:07,731 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 02:01:07,743 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:07,890 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:15,509 - BabihostLogin - INFO - Confirmed logout via site popup
+2025-09-30 02:01:18,510 - TestBabihostLogin - INFO - Login test completed successfully
+2025-09-30 02:01:18,513 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 02:01:18,522 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:18,522 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:18,893 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:18,893 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:22,059 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-button-3"]"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f855fca5+79861]
+	GetHandleVerifier [0x0x7ff7f855fd00+79952]
+	(No symbol) [0x0x7ff7f82dcada]
+	(No symbol) [0x0x7ff7f8334457]
+	(No symbol) [0x0x7ff7f833471c]
+	(No symbol) [0x0x7ff7f8388217]
+	(No symbol) [0x0x7ff7f835cb1f]
+	(No symbol) [0x0x7ff7f8384f8b]
+	(No symbol) [0x0x7ff7f835c8b3]
+	(No symbol) [0x0x7ff7f8325272]
+	(No symbol) [0x0x7ff7f8326043]
+	GetHandleVerifier [0x0x7ff7f881b9dd+2946349]
+	GetHandleVerifier [0x0x7ff7f8815c5a+2922410]
+	GetHandleVerifier [0x0x7ff7f88359e7+3052855]
+	GetHandleVerifier [0x0x7ff7f857aa8e+189918]
+	GetHandleVerifier [0x0x7ff7f8582a2f+222591]
+	GetHandleVerifier [0x0x7ff7f8568ac4+116244]
+	GetHandleVerifier [0x0x7ff7f8568c79+116681]
+	GetHandleVerifier [0x0x7ff7f854f058+11176]
+	BaseThreadInitThunk [0x0x7ffa86e57374+20]
+	RtlUserThreadStart [0x0x7ffa87dfcc91+33]
+
+2025-09-30 02:01:22,164 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 02:01:22,176 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:22,176 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:22,176 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:22,319 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:22,319 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:22,319 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:25,471 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-button-3"]"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f855fca5+79861]
+	GetHandleVerifier [0x0x7ff7f855fd00+79952]
+	(No symbol) [0x0x7ff7f82dcada]
+	(No symbol) [0x0x7ff7f8334457]
+	(No symbol) [0x0x7ff7f833471c]
+	(No symbol) [0x0x7ff7f8388217]
+	(No symbol) [0x0x7ff7f835cb1f]
+	(No symbol) [0x0x7ff7f8384f8b]
+	(No symbol) [0x0x7ff7f835c8b3]
+	(No symbol) [0x0x7ff7f8325272]
+	(No symbol) [0x0x7ff7f8326043]
+	GetHandleVerifier [0x0x7ff7f881b9dd+2946349]
+	GetHandleVerifier [0x0x7ff7f8815c5a+2922410]
+	GetHandleVerifier [0x0x7ff7f88359e7+3052855]
+	GetHandleVerifier [0x0x7ff7f857aa8e+189918]
+	GetHandleVerifier [0x0x7ff7f8582a2f+222591]
+	GetHandleVerifier [0x0x7ff7f8568ac4+116244]
+	GetHandleVerifier [0x0x7ff7f8568c79+116681]
+	GetHandleVerifier [0x0x7ff7f854f058+11176]
+	BaseThreadInitThunk [0x0x7ffa86e57374+20]
+	RtlUserThreadStart [0x0x7ffa87dfcc91+33]
+
+2025-09-30 02:01:25,520 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 02:01:25,525 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:25,525 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:25,525 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:25,525 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:25,662 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:25,662 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:25,662 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:25,662 - BabihostLogin - INFO - Sent username
+2025-09-30 02:01:28,788 - TestBabihostLogin - ERROR - An error occurred during login: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nova-ui-dropdown-button-3"]"}
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f855fca5+79861]
+	GetHandleVerifier [0x0x7ff7f855fd00+79952]
+	(No symbol) [0x0x7ff7f82dcada]
+	(No symbol) [0x0x7ff7f8334457]
+	(No symbol) [0x0x7ff7f833471c]
+	(No symbol) [0x0x7ff7f8388217]
+	(No symbol) [0x0x7ff7f835cb1f]
+	(No symbol) [0x0x7ff7f8384f8b]
+	(No symbol) [0x0x7ff7f835c8b3]
+	(No symbol) [0x0x7ff7f8325272]
+	(No symbol) [0x0x7ff7f8326043]
+	GetHandleVerifier [0x0x7ff7f881b9dd+2946349]
+	GetHandleVerifier [0x0x7ff7f8815c5a+2922410]
+	GetHandleVerifier [0x0x7ff7f88359e7+3052855]
+	GetHandleVerifier [0x0x7ff7f857aa8e+189918]
+	GetHandleVerifier [0x0x7ff7f8582a2f+222591]
+	GetHandleVerifier [0x0x7ff7f8568ac4+116244]
+	GetHandleVerifier [0x0x7ff7f8568c79+116681]
+	GetHandleVerifier [0x0x7ff7f854f058+11176]
+	BaseThreadInitThunk [0x0x7ffa86e57374+20]
+	RtlUserThreadStart [0x0x7ffa87dfcc91+33]
+
+2025-09-30 02:01:28,841 - TestBabihostLogin - INFO - Test started: test_login
+2025-09-30 02:01:28,846 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:28,846 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:28,846 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:28,846 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:28,846 - BabihostLogin - INFO - Location email
+2025-09-30 02:01:28,866 - TestBabihostLogin - ERROR - An error occurred during login: 'NoneType' object is not iterable
+2025-09-30 02:01:46,995 - TestRemembermeLogin - INFO - Test started: test_login_rememberme
+2025-09-30 02:01:47,006 - BabihostLoginRememberMe - INFO - Locating email input
+2025-09-30 02:01:47,100 - BabihostLoginRememberMe - INFO - Entered username
+2025-09-30 02:01:48,171 - BabihostLoginRememberMe - INFO - Entered password
+2025-09-30 02:01:48,238 - BabihostLoginRememberMe - INFO - Clicked 'Remember Me' checkbox
+2025-09-30 02:01:48,310 - BabihostLoginRememberMe - INFO - Clicked login button
+2025-09-30 02:01:49,391 - BabihostLoginRememberMe - INFO - Login successful - dashboard loaded
+2025-09-30 02:02:05,095 - BabihostLoginRememberMe - INFO - Remember Me functionality working - user automatically logged in
+2025-09-30 02:02:05,095 - TestRemembermeLogin - INFO - Remember Me login test completed successfully

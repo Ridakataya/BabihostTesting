@@ -129,5 +129,88 @@ def BabihostLoginRememberMe(self, username, password):
 
 
 
+def BabihostRegistration(self, name, email, password, confirm_password):
+    
+    self.log = AutomationLogger.automation()
+    self.log.info("Starting registration test with valid details")
+
+    try:
+        # Step 1: Navigate to Registration page
+        self.driver.get("https://babihost.online/register")  # change if needed
+        self.log.info("Opened registration page")
+
+        # Step 2: Fill registration form
+        self.driver.find_element(By.NAME, "name").send_keys(name)
+        self.log.info(f"Entered name: {name}")
+
+        self.driver.find_element(By.NAME, "email").send_keys(email)
+        self.log.info(f"Entered email: {email}")
+
+        self.driver.find_element(By.NAME, "password").send_keys(password)
+        self.driver.find_element(By.NAME, "password_confirmation").send_keys(confirm_password)
+        self.log.info("Entered password and confirmed password")
+
+        # Step 3: Click Register
+        self.driver.find_element(By.XPATH, "//button[contains(text(),'Register')]").click()
+        self.log.info("Clicked Register button")
+
+        # Step 4: Wait for redirection (either login page or dashboard)
+        WebDriverWait(self.driver, 20).until(
+            EC.url_contains("login") or EC.url_contains("dashboard")
+        )
+        current_url = self.driver.current_url
+        self.log.info(f"Redirected to: {current_url}")
+
+        # Step 5: Assert successful registration
+        assert "login" in current_url.lower() or "dashboard" in current_url.lower(), \
+            "User was not redirected after registration"
+
+        self.log.info("Registration test passed - user account created successfully")
+
+    except Exception as e:
+        self.log.error(f"Registration test failed: {e}")
+        pytest.fail(f"Registration test failed: {e}")
+
+
+
+def BabihostForgotPassword(self):
+    """
+    Test Case: Verify 'Forgot Password' link redirects to Password Reset page
+    """
+    self.log = AutomationLogger.automation()
+    self.log.info("Starting 'Forgot Password' link test")
+
+    try:
+        # Wait for Forgot Password link to be visible
+        forgot_password_locator = (By.XPATH, "//*[@id='app']/div/div[2]/form/div[3]/div[2]/a")
+        WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable(forgot_password_locator)
+        )
+
+        # Click on Forgot Password link
+        self.driver.find_element(*forgot_password_locator).click()
+        self.log.info("Clicked on 'Forgot Password' link")
+
+        # Wait for redirection
+        WebDriverWait(self.driver, 20).until(
+            EC.url_contains("password/reset")  
+        )
+
+        current_url = self.driver.current_url
+        self.log.info(f"Redirected to: {current_url}")
+
+        # Verify URL contains password reset page
+        assert "reset" in current_url.lower() or "forgot" in current_url.lower(), \
+            "User not redirected to Password Reset page"
+
+        self.log.info("Forgot Password redirection test passed")
+
+    except Exception as e:
+        self.log.error(f"Forgot Password test failed: {e}")
+        pytest.fail(f"Forgot Password test failed: {e}")
+
+
+
+
 
  
